@@ -24,7 +24,7 @@ This Git repository contains the following top directories:
 │   ├── ...
 └── infra
 │   ├── base
-│   ├── defaults
+│   ├── config
 │   ├── dev
 │   └── prod
 └── apps
@@ -58,7 +58,7 @@ spec:
 The `infra` configuration is structured into:
 
 - `infra/base` dir contains Helm release definitions
-- `infra/defaults` dir contains RBAC config and Helm sources
+- `infra/config` dir contains RBAC config and other infra config
 - `infra/dev` dir contains the development Helm release values
 - `infra/prd` dir contains the production Helm release values
 
