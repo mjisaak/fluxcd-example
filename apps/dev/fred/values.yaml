@@ -23,11 +23,11 @@ spec:
       annotations:
         cert-manager.io/cluster-issuer: letsencrypt
       hosts:
-        - host: demo.devops.whiteduck.de
+        - host: k8s.mbrandl.com
           paths:
             - path: /
               pathType: ImplementationSpecific
       tls:
-        - secretName: demo.devops.whiteduck.de
+        - secretName: k8s.mbrandl.com
           hosts:
-            - demo.devops.whiteduck.de
+            - k8s.mbrandl.com
