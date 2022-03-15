@@ -16,7 +16,7 @@ spec:
         namespace: flux-system
   values:
     image:
-      tag: fred
+      tag: fred-easter
     ingress:
       enabled: true
       className: nginx
