@@ -16,7 +16,7 @@ spec:
         namespace: flux-system
   values:
     image:
-      tag: fred-xmas
+      tag: fred-easter
       # Available tags:
       # fred
       # frida
@@ -24,6 +24,8 @@ spec:
       # fred-pirate
       # fred-cap
       # fred-easter
+
+      # flux reconcile source git flux-config -n flux-system
     ingress:
       enabled: true
       className: nginx
