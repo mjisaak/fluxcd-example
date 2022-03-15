@@ -16,7 +16,7 @@ spec:
         namespace: flux-system
   values:
     image:
-      tag: fred-easter
+      tag: frida
       # Available tags:
       # fred
       # frida
