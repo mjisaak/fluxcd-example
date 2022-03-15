@@ -26,6 +26,7 @@ spec:
       # fred-easter
 
       # flux reconcile source git flux-config -n flux-system
+      # k get kustomization -A
     ingress:
       enabled: true
       className: nginx
