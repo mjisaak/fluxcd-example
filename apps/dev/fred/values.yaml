@@ -33,11 +33,11 @@ spec:
       annotations:
         cert-manager.io/cluster-issuer: letsencrypt
       hosts:
-        - host: k8s.mbrandl.com
+        - host: fred.mbrandl.com
           paths:
             - path: /
               pathType: ImplementationSpecific
       tls:
-        - secretName: k8s.mbrandl.com
+        - secretName: fred.mbrandl.com
           hosts:
-            - k8s.mbrandl.com
+            - fred.mbrandl.com
