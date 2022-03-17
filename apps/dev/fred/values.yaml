@@ -6,7 +6,7 @@ metadata:
 spec:
   values:
     image:
-      tag: fred-cap
+      tag: fred-easter
     ingress:
       enabled: true
       className: nginx
